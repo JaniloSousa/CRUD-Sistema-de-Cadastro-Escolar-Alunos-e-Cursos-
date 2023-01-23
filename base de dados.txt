@@ -1,0 +1,67 @@
+* BASE DE DADOS ALUNOS
+
+insert into aluno (nome, idade, curso, nota, premium)
+
+values ('Janilo Sousa', 22, 'Dev Full-Stack', 9.5, 'Sim'),
+
+('Sara Garcia', 21, 'Recursos Humanos', 10, 'Sim'),
+
+('João Silva', 18, 'Fotografia', 10, 'Sim'),
+
+('Ana Maria', 20, 'Marketing', 9, 'Não'),
+
+('Micael Sousa', 25, 'Edição de Vídeos', 8, 'Sim'),
+
+('Pedro Ramos', 50, 'Edição de Imagens', 10, 'Sim'),
+
+('Raul Luis', 10, 'Recursos Humanos', 9, 'Não'),
+
+('Lucas Cardoso', 18, 'Dev Full-Stack', 6, 'Não'),
+
+('Ana Lucia', 30, 'Marketing', 5, 'Sim'),
+
+('Ricardo Lopes', 25, 'Edição de Vídeos', 3, 'Sim'),
+
+('Lara Costa', 17, 'Fotografia', 10, 'Não'),
+
+('Alice Sousa', 30, 'Edição de Imagens', 9, 'Não'),
+
+('Renata Braga', 35, 'Marketing', 7, 'Sim'),
+
+('Davi Teles', 40, 'Fotografia', 7, 'Não'),
+
+('Mateus Nogueira', 22, 'Design', 8, 'Sim'),
+
+('Geovana Barbosa', 21, 'Excel', 9, 'Não'),
+
+('Wilson Lima', 20, 'Excel', 5, 'Sim'),
+
+('Rafaela Gonçales', 19, 'Design', 6, 'Não'),
+
+('Joyce Almeida', 18, 'Design', 8, 'Sim'),
+
+('William Oliveira', 22, 'MySql', 9, 'Não');
+
+* BASE DE DADOS CURSOS
+
+insert into curso (nome, hora, preco, tipo)
+values ('Dev Full-Stack', 200, 1200, 'Presencial'),
+('Recursos Humanos', 200, 1200, 'Online'),
+('Fotografia', 50, 1000, 'Presencial'),
+('Marketing', 100, 1000, 'Online'),
+('Edição de Vídeos', 50, 50, 'Presencial'),
+('Edição de Imagens', 50, 50, 'Online'),
+('Marketing', 100, 1200, 'Presencial'),
+('Design', 100, 1200, 'Online'),
+('Excel', 50, 50, 'Presencial'),
+('MySql', 50, 100, 'Online'),
+('Python', 100, 50, 'Presencial'),
+('DJango', 100, 100, 'Online'),
+('Flask', 100, 100, 'Presencial'),
+('AWS Cloud', 100, 100, 'Online'),
+('PowerPoint', 50, 50, 'Presencial'),
+('Docker', 100, 100, 'Online'),
+('Git e GitHub', 50, 50, 'Presencial'),
+('Linux', 100, 1000, 'Online'),
+('Data Science', 200, 1200, 'Presencial'),
+('Html e Css', 200, 1200);
